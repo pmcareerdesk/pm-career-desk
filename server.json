@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.pmcareerdesk/interview-coach",
+  "title": "PM Career Desk",
+  "description": "Resume, LinkedIn and interview practice tools for project, program and product managers.",
+  "version": "1.0.0",
+  "websiteUrl": "https://pmcareerdesk.com/interview-coach/?c=directory-mcp-registry&utm_source=mcp-registry&utm_medium=directory",
+  "icons": [
+    {
+      "src": "https://app.pmcareerdesk.com/assets/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.pmcareerdesk.com/mcp"
+    }
+  ]
+}
